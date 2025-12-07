@@ -1,0 +1,13 @@
+#about-dropdown{
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    background: var(--color-surface);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+#about-dropdown:hover{
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
