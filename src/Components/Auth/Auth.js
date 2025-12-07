@@ -208,8 +208,8 @@ const Auth = (props) => {
                                                     <option value="female">Female</option>
                                                 </select></div>
                                             <div>
-                                                <label for="blood" className="font-semibold  leading-8">Blood Group:<font color="red">*</font></label>
-                                                <select name="blood" id="state" onChange={(e) => setBlood(e.target.value)} className="w-full p-3 text-md border border-silver rounded">
+                                                <label htmlFor="blood" className="font-semibold  leading-8">Blood Group:<font color="red">*</font></label>
+                                                <select name="blood" id="blood" onChange={(e) => setBlood(e.target.value)} className="w-full p-3 text-md border border-silver rounded">
                                                     {
                                                         bloodGroups.map((e, i) => <option value={i}>{e}</option>)
                                                     }
